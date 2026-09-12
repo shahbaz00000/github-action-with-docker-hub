@@ -1,0 +1,14 @@
+{
+  "name": "github-action-and-docker-hub-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Basic Express backend with a test route",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
